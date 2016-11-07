@@ -1,0 +1,32 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  a {
+    text-decoration: none;
+  }
+  &__contact-label {
+    display: inline-block;
+    font-size: 0.7em;
+    height: 100%;
+  }
+  &__contact-list {
+    display: inline-flex;
+    width: auto;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0;
+  }
+  &__contact-list-item {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    color: $grey-color-dark;
+    margin: 20px 10px;
+    &:hover {
+      color: $color-primary;
+    }
+  }
+}

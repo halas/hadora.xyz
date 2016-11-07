@@ -5,6 +5,7 @@
 html,
 body {
   box-sizing: border-box;
+  height: 100%;
 }
 
 *,
@@ -16,6 +17,12 @@ body {
 a {
   text-decoration: underline;
   color: $color-primary;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 // a[href]:not([class]) {
