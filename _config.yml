@@ -29,3 +29,13 @@ markdown: kramdown
 exclude:
   - Gemfile
   - Gemfile.lock
+
+collections:
+  - experiences_list
+  - projects
+
+experienceStartDate: 2016-02-13
+
+jekyll_timeago:
+  depth: 4
+  suffix: ""

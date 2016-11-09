@@ -1,0 +1,13 @@
+---
+layout: default
+title: projects
+navigation: true
+---
+
+{% assign projects = site.projects | sort: 'creationDate' | reverse %}
+
+<section class="projects_list">
+  {% for project in projects %}
+    {{ project }}
+  {% endfor %}
+</section>

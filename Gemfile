@@ -17,3 +17,7 @@ group :test do
     gem 'jekyll', versions['jekyll']
     gem 'html-proofer', '~> 3.0.0'
 end
+
+group :jekyll_plugins do
+  gem 'jekyll-timeago'
+end

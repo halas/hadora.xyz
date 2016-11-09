@@ -1,0 +1,24 @@
+---
+layout: default
+title: experience
+navigation: true
+---
+
+<section class="experiences__summary">
+  <span class="secion-label">tl:dr</span>
+  <p class="experiences__summary-content">
+    I have <span class="experience-count">{{ site.experienceStartDate | timeago }}</span> of
+    commercial front-end developer experience with 6 years of project and PR managemen in
+    the company running one of the biggest Polish web sites. Even before I decided to switch
+    to technical site of the business, I learnt a lot about technology. Good communication skills
+    and understanding of broader business context help in developer career as well.
+  </p>
+</section>
+
+{% assign experiences = site.experiences_list | sort: 'startDate' | reverse %}
+
+<section class="experiences_list">
+  {% for experience in experiences %}
+    {{ experience }}
+  {% endfor %}
+</section>
