@@ -19,6 +19,10 @@ description: > # this means to ignore newlines until "baseurl:"
   Piotr Halasiewicz - ex PR and Project Manager turned front-end developer.
   FOSS enthusiast. Javascript newbie on quest to become Javascript expert.
 baseurl: "" # the subpath of your site, e.g. /blog
+
+destination: public
+source: src
+
 url: "http://hadora.xyz" # the base hostname & protocol for your site
 twitter_username: phalasiewicz
 github_username:  halas
@@ -29,6 +33,7 @@ markdown: kramdown
 exclude:
   - Gemfile
   - Gemfile.lock
+  - node_modules
 
 collections:
   - experiences_list

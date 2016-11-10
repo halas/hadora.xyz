@@ -19,9 +19,14 @@ layout: default
     <footer>
       {% include footer.html %}
     </footer>
-    <script src={{ "/assets/js/instantclick.min.js" | relative_url }}  data-no-instant></script>
+    <script
+      type="text/javascript"
+      src={{ "/assets/js/bundle.js" | relative_url }}
+      charset="utf-8"
+      data-no-instant
+    ></script>
     <script data-no-instant>
-      InstantClick.init();
+      // greet("piotr")
     </script>
   </body>
 </html>
