@@ -44,21 +44,29 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
+	__webpack_require__(1);
+	module.exports = __webpack_require__(1);
+
+
+/***/ },
+/* 1 */
+/***/ function(module, exports, __webpack_require__) {
+
 	'use strict';
 
-	var _instantclick = __webpack_require__(1);
+	var _instantclick = __webpack_require__(2);
 
 	var _instantclick2 = _interopRequireDefault(_instantclick);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var greet = __webpack_require__(2);
+	var greet = __webpack_require__(3);
 
 	greet('piotr');
 	_instantclick2.default.init();
 
 /***/ },
-/* 1 */
+/* 2 */
 /***/ function(module, exports) {
 
 	/* InstantClick 3.1.0 | (C) 2014 Alexandre Dieulot | http://instantclick.io/license */
@@ -79,7 +87,7 @@
 
 
 /***/ },
-/* 2 */
+/* 3 */
 /***/ function(module, exports) {
 
 	'use strict';

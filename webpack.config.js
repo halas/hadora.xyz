@@ -15,7 +15,17 @@ module.exports = {
         query: {
           presets: ['es2015']
         }
-      }
+      },
+      {
+               test: /main\.scss$/,
+               include: /_sass/,
+               loaders: [
+                   'style',
+                   'css',
+                   'autoprefixer?browsers=last 3 versions',
+                   'sass?outputStyle=expanded'
+               ]
+           },
     ]
   }
 };
