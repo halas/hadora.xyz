@@ -52,9 +52,7 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
-	__webpack_require__(2);
-	
-	var greet = __webpack_require__(3);
+	var greet = __webpack_require__(2);
 	
 	greet('piotr');
 	_instantclick2.default.init();
@@ -82,12 +80,6 @@
 
 /***/ },
 /* 2 */
-/***/ function(module, exports) {
-
-	// removed by extract-text-webpack-plugin
-
-/***/ },
-/* 3 */
 /***/ function(module, exports) {
 
 	'use strict';
