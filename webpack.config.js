@@ -4,13 +4,11 @@ const cssnano = require('cssnano');
 
 
 module.exports = {
-  // webpack folder's entry js - excluded from jekll's build process.
   entry: {
       "src/assets/js": "./webpack/entry.js",
-      "public/assets/css": "./sass/main.scss"
+      "src/assets/css": "./sass/main.scss"
   },
   output: {
-    // we're going to put the generated file in the assets folder so jekyll will grab it.
       path: './',
       filename: "src/assets/js/bundle.js"
   },
@@ -29,7 +27,7 @@ module.exports = {
          test: /\.scss$/,
          loader: ExtractTextPlugin.extract(
                 'style',
-                'css!postcss!sass'
+                'css?sourceMap!postcss!sass?sourceMap'
               ),
        },
     ]
@@ -38,7 +36,7 @@ module.exports = {
       return [autoprefixer,cssnano];
   },
   plugins: [
-    new ExtractTextPlugin('public/assets/css/main.css', {
+    new ExtractTextPlugin('src/assets/css/main.css', {
       allChunks: true,
     })
   ]
