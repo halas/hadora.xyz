@@ -1,3 +1,5 @@
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
+
 module.exports = {
   // webpack folder's entry js - excluded from jekll's build process.
   entry: "./webpack/entry.js",
@@ -6,6 +8,7 @@ module.exports = {
       path: 'src/assets/js/',
       filename: "bundle.js"
   },
+  devtool: 'source-map',
   module: {
     loaders: [
       {
@@ -17,15 +20,18 @@ module.exports = {
         }
       },
       {
-               test: /main\.scss$/,
-               include: /_sass/,
-               loaders: [
-                   'style',
-                   'css',
-                   'autoprefixer?browsers=last 3 versions',
-                   'sass?outputStyle=expanded'
-               ]
-           },
+         test: /\.scss$/,
+         loader: ExtractTextPlugin.extract(
+                "style",
+                "css-loader!sass-loader"
+              ),
+       },
     ]
-  }
+  },
+  plugins: [
+    new ExtractTextPlugin('css/main.css', {
+      allChunks: true,
+      path: 'public/assets/' 
+    })
+  ]
 };
