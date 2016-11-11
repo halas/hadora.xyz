@@ -1,3 +1,4 @@
+const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const autoprefixer = require('autoprefixer');
 const cssnano = require('cssnano');
@@ -38,6 +39,11 @@ module.exports = {
   plugins: [
     new ExtractTextPlugin('src/assets/css/main.css', {
       allChunks: true,
+    }),
+    new webpack.optimize.UglifyJsPlugin({
+    compress: {
+      warnings: false // https://github.com/webpack/webpack/issues/1496
+    }
     })
   ]
 };
