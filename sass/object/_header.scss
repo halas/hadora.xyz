@@ -16,7 +16,7 @@
   }
   .site-title {
     display: block;
-    margin: $base-line/2 auto;
+    margin: $base-line/2 auto 0;
     font-size: $base-em * $ms5;
     @media #{$medium-up} {
       font-size: $base-em * $ms6;
@@ -28,6 +28,11 @@
       opacity: 0.88;
       text-decoration: underline;
     }
+  }
+  .site-subtitle {
+    float: left;
+    margin-bottom: $base-line/2;
+    padding-left: 5px;
   }
 }
 
