@@ -5,19 +5,25 @@ navigation: true
 ---
 
 <section class="experiences__summary">
-  <span class="secion-label">tl:dr</span>
+  <span class="experiences__label decorate">tl:dr</span>
   <p class="experiences__summary-content">
     I have <span class="experience-count">{{ site.experienceStartDate | timeago }}</span> of
-    commercial front-end developer experience with 6 years of project and PR managemen in
+    commercial front-end developer experience with 6 years of project and PR management in
     the company running one of the biggest Polish web sites. Even before I decided to switch
     to technical site of the business, I learnt a lot about technology. Good communication skills
     and understanding of broader business context help in developer career as well.
   </p>
+  <div class="experiences__technologies tags-collection">
+    {% for technology in site.data.technologies %}
+    <span class="experiences__technology tag decorate-word">{{ technology }}</span>
+    {% endfor %}
+  </div>
 </section>
 
 {% assign experiences = site.experiences_list | sort: 'startDate' | reverse %}
 
 <section class="experiences_list">
+  <span class="experiences__label decorate">details</span>
   {% for experience in experiences %}
     {{ experience }}
   {% endfor %}
