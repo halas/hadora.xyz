@@ -12,7 +12,6 @@
 @import "tool/decorators";
 
 // Base
-@import "base/layout";
 @import "config/colors";
 @import "config/mediaqueries";
 @import "config/typography";
@@ -33,3 +32,5 @@
 @import "object/footer";
 @import "object/pagination";
 @import "object/posts";
+@import "object/experience";
+@import "object/tags";

@@ -1,0 +1,19 @@
+.tags-collection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.tag {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: bold;
+  display: inline-block;
+  margin: 5px;
+  &::before {
+    content: "#";
+    font-size: 0.8em;
+    font-weight: bold;
+    color: inherit;
+  }
+}
