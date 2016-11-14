@@ -1,5 +1,5 @@
 ---
 layout: default
 title: thoughts
-navigation: true
+navigation: false
 ---
