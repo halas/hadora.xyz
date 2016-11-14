@@ -1,11 +1,16 @@
-.decorate {
-  &__first {
+.addColors {
+  .decorate0 {
     color: $colorDeco1;
+    transition: color 500ms;
   }
-  &__second {
+  .decorate1 {
     color: $colorDeco2;
+    transition: color 500ms;
+    transition-delay: 1s;
   }
-  &__third {
+  .decorate2 {
     color: $colorDeco3;
+    transition: color 500ms;
+    transition-delay: 2s;
   }
 }

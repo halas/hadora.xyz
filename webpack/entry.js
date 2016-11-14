@@ -1,5 +1,8 @@
-import instantclick from 'instantclick'
-let greet = require('./components/greet');
+import instantClick from 'instantclick'
+let decorate = require('./components/decorate');
 
-greet('piotr');
-instantclick.init()
+instantClick.init()
+decorate()
+instantClick.on('change', () => {
+  decorate()
+});
