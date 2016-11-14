@@ -12,5 +12,3 @@ work in new and experimental team tasked with finding visually atractive and mod
 ways to present journalistic content online while keeping ad department happy
 with high pageviews statistics. I developed a slide-show like template used
 in many successful projects. Technologies used included JQuery, SASS and Gulp.
-
-See some projects I developed for Wyborcza.pl =>

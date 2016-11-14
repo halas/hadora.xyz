@@ -12,5 +12,3 @@ of infant formulas and baby food. We run pages for young parents visited by seve
 thousands people every month. Tech stack includes: php/ symfony2 / Kunstman CMS/
 twig templating system on the backend and Angular 1.4 with ES6, Webpack, Gulp and BEM
 methodology on the frontend.
-
-See some projects I developed for Syzygy =>
