@@ -1,6 +1,7 @@
 .footer {
   display: flex;
   flex-direction: row;
+  flex-wrap: nowrap;
   justify-content: flex-end;
   align-items: center;
   a {
@@ -15,6 +16,7 @@
     display: inline-flex;
     width: auto;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: flex-end;
     list-style: none;
     padding: 0;
