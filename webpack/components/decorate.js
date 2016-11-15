@@ -2,11 +2,11 @@ let spannify = require('./spannify');
 let addColor = require('./addColor');
 
 let decorate = () => {
-  let toDecorate = document.querySelectorAll('.decorate');
+  let toDecorate = Array.from(document.querySelectorAll('.decorate'));
   toDecorate.forEach((currentElement)=> {
     spannify(currentElement,'decorate')
   });
-  let toDecorateWords = document.querySelectorAll('.decorate-word');
+  let toDecorateWords = Array.from(document.querySelectorAll('.decorate-word'));
   addColor(toDecorateWords);
 
   setTimeout(()=>{
