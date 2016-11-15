@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Piotr Halasiewicz's home site",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "concurrently \"webpack -w\" \"jekyll serve\""
   },
   "repository": {
     "type": "git",

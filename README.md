@@ -20,11 +20,15 @@ then:
   npm install
   bundle install
 ```
-to develop, run in two separate terminal sessions:
+to develop, run npm script
+```
+  npm run serve
+```
+which will run concurrently webpack watch and jekyll serve:
 ```
   webpack -w
   jekyll serve
 ```
 You build your scripts in `webpack` direcotory, sass in `sass` (both are handled
 by webpack and comiled to `src/assets` directory). HTML, markup, data and collections
-handled by jekyll are in `src`. Jekyll builds ready to deploy site in `public` direcotory. 
+handled by jekyll are in `src`. Jekyll builds ready to deploy site in `public` direcotory.
