@@ -1,4 +1,7 @@
 .experiences {
+  &__list {
+    margin-top: 20px;
+  }
   &__label {
     font-size: 1.2em;
     font-weight: bold;
@@ -7,6 +10,22 @@
     padding: 20px;
   }
   &__technologies {
-    padding: 20px;
+    padding: 0 20px 20px;
+  }
+  &__final-word {
+    display: block;
+    margin: 30px 0;
+    font-size: 1.5em;
+  }
+}
+
+.experience {
+  &__header {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  &__dates {
+    font-size: 0.8em;
+    font-weight: lighter;
   }
 }

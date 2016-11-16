@@ -22,9 +22,14 @@ navigation: true
 
 {% assign experiences = site.experiences_list | sort: 'startDate' | reverse %}
 
-<section class="experiences_list">
+<section class="experiences__list">
   <span class="experiences__label decorate">details</span>
   {% for experience in experiences %}
-    {{ experience }}
+    {% if experience.dev %}
+      {{ experience }}
+    {% endif %}
   {% endfor %}
 </section>
+
+<span class="experiences__final-word">See more detailed info about my pre-developer
+  experiences and education on my {% include icon-linkedin.html %}</span>

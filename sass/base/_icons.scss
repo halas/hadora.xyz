@@ -1,47 +1,20 @@
-.mail.icon {
-  box-sizing: content-box;
-  color: #000;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -15%;
-  margin-left: -30%;
-  width: 15px;
-  height: 10px;
-  border-radius: 1px;
-  border: solid 1px currentColor;
-  cursor: pointer;
-  &::before {
-    content: '';
-    position: absolute;
-    left: 7px;
-    top: -4px;
-    width: 1px;
-    height: 10px;
-    background-color: currentColor;
-    -webkit-transform-origin: bottom;
-    transform-origin: bottom;
-    -webkit-transform: rotate(-54deg);
-    transform: rotate(-54deg);
-  }
-  &::after {
-    content: '';
-    position: absolute;
-    left: 7px;
-    top: -4px;
-    width: 1px;
-    height: 10px;
-    background-color: currentColor;
-    -webkit-transform-origin: bottom;
-    transform-origin: bottom;
-    -webkit-transform: rotate(54deg);
-    transform: rotate(54deg);
-  }
+.icon--mail {
   &:hover {
-    background-color: currentColor;
-    &::before,
-    &::after {
-      background-color: $background-color;
-    }
+    color: $colorDeco1;
+  }
+}
+.icon--github {
+  &:hover {
+    color: $colorDeco2;
+  }
+}
+.icon--twitter {
+  &:hover {
+    color: $colorDeco3;
+  }
+}
+.icon--linkedin {
+  &:hover {
+    color: $colorDeco1;
   }
 }
