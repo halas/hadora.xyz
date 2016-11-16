@@ -1,7 +1,7 @@
 ---
 layout: experience
 navigation: false
-position: Junior Front-end developer
+position: Junior front-end developer
 company: Wyborcza.pl
 startDate: 2016-03-13
 endDate: 2016-06-12

@@ -1,7 +1,7 @@
 ---
 layout: experience
 navigation: false
-position: Junior Front-end developer
+position: Junior front-end developer
 company: Syzygy.pl
 startDate: 2016-06-13
 dev: true

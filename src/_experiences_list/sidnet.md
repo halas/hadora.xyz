@@ -1,7 +1,7 @@
 ---
 layout: experience
 navigation: false
-position: Perl and Front-end developer internship
+position: Perl and front-end developer internship
 company: Sidnet.info
 startDate: 2016-02-13
 endDate: 2016-03-12
