@@ -1,6 +1,14 @@
-<div class="experience">
-  <h2 class="experience__header">{{ page.position }} in {{ page.company }}</h2>
-  <span class="experience__dates">from {{ page.startDate | date: "%Y %h" }}
-    {% if page.endDate %} to {{ page.endDate | date: "%Y %h" }} {% endif %}</span>
-  <p class="experience__desc">{{ page.content }}</p>
+<div class="experience small-section">
+  <h2 class="experience__header small-section__header">
+    {{ page.position }} in {{ page.company }}
+  </h2>
+  <span class="experience__dates small-section__meta">
+    from {{ page.startDate | date: "%Y %h" }}
+    {% if page.endDate %}
+      to {{ page.endDate | date: "%Y %h" }}
+    {% endif %}
+  </span>
+  <p class="experience__desc">
+    {{ page.content }}
+  </p>
 </div>
