@@ -36,6 +36,7 @@ $number: 2; // for equal columns
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
   }
 
   margin-left: -2vw;
