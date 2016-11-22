@@ -9,10 +9,12 @@
     <p class="project__desc">{{ page.content }}</p>
   </div>
   <div class="project__image-wrp">
-    <img
-      class="project__image"
-      src="{{ site.url }}/assets/images/{{ page.image }}"
-      alt="{{ page.title }}"
-    >
+    <a href="{{ page.www }}" target="_blank" title="{{ page.title }}">
+      <img
+        class="project__image"
+        src="{{ site.url }}/assets/images/{{ page.image }}"
+        alt="{{ page.title }}"
+      >
+    </a>
   </div>
 </div>
