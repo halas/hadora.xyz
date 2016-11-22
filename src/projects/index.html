@@ -1,7 +1,7 @@
 ---
 layout: default
 title: projects
-navigation: false
+navigation: true
 ---
 
 {% assign projects = site.projects | sort: 'creationDate' | reverse %}
@@ -10,4 +10,8 @@ navigation: false
   {% for project in projects %}
     {{ project }}
   {% endfor %}
+  <p class="projects__final-word section__final-word">
+    There are a few more - check out my
+    {% include icon-github.html %}
+  </p>
 </section>

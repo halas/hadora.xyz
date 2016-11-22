@@ -1,10 +1,18 @@
 <div class="project grid">
-  <div class="project-content">
-    <h2 class="project__header">{{ page.title }}</h2>
-    <span class="project__date">{{ page.creationDate }}</span>
+  <div class="project__content small-section">
+    <h2 class="project__header small-section__header">
+      {{ page.title }}
+    </h2>
+    <span class="project__date small-section__meta">
+      {{ page.creationDate }}
+    </span>
     <p class="project__desc">{{ page.content }}</p>
   </div>
-  <div class="project-image">
-
+  <div class="project__image-wrp">
+    <img
+      class="project__image"
+      src="{{ site.url }}/assets/images/{{ page.image }}"
+      alt="{{ page.title }}"
+    >
   </div>
 </div>
