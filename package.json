@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Piotr Halasiewicz's home site",
   "scripts": {
-    "serve": "concurrently \"webpack -w\" \"jekyll serve\"",
+    "serve": "concurrently \"webpack -w\" \"bundle exec jekyll serve\"",
     "deploy": "node ftp-deploy.js"
   },
   "repository": {
