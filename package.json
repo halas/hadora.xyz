@@ -4,7 +4,7 @@
   "description": "Piotr Halasiewicz's home site",
   "scripts": {
     "serve": "concurrently \"webpack -w\" \"jekyll serve\"",
-    "deploy": "node ftp-deploy.js"
+    "build": "webpack -p && jekyll build"
   },
   "repository": {
     "type": "git",
