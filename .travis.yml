@@ -9,7 +9,7 @@ deploy:
   access_key_id: AKIAIPI6GH3MYBDVKKYA
   secret_access_key:
     secure: aJ9nQRXwHTVwvN79pmFZW8ro5WrHuGGe7xJvtpA4h2pY4hlhbOp+0G3FFZQbWk1wHGOzbGyYE4N3ebHch2vpJpDrHz/FO1GD+64bezfzOvFjGDUHhONufSbXrZJkVEjWY2+jlOXNHrXOAhY0aylOETg6JtGg2Y3g5cYk7veFnH0dLlCwro6lU7jiRSmnPmTtru+uBtDPBK5C2pOnsAGolnsG+8UEsMO2EVT5arf1Ueu8FvAeK/LTf9TFfHdEedBpOnPGqLb9LzmdBLhOBam6Z5vrdKHAJq9h3dpO2cntCGG5DEYgev5It2wkdhu5X80VxZE3wfoHnWzX5AH24eul+nG+unIsTnlggxKoaFC1XRdCGICaXkPRuKyqch3nJcLHZ1qQDZ5iWM8ISO/L1GCL+5qS2eMGmqlmA1s4EBI6zGoimh9zFuT371xtv/2s4IB5UTw8PenU6TGOvbFxQtuOxppJxg7xa+Na/KRl/UcsrH4PKBIGNHsj+gyYC6AvT47Tpf4Wv/asXNpOPb4LlfOqgDRzvTFAdldCMSSJAs+vVwsvzUp0+ML/8wcIda85bmdcGLg1LYM1zHyGUmHLiB+RsWUpLTn26zqQiVLvyLhsDaNFMxpvOxLtVwHqq+YI7gp5XyiRWg+uoN+sbmJFCGIbQoBAZ2iItkSHdzXxnjXiDI0=
-  bucket: hadora.xyz
+  bucket: "hadora.xyz"
   region: eu-central-1
   acl: public_read
   on:
