@@ -12,5 +12,6 @@ deploy:
   bucket: "hadora.xyz"
   region: eu-central-1
   acl: public_read
+  local-dir: public
   on:
     repo: halas/hadora.xyz
