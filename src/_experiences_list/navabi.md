@@ -4,6 +4,7 @@ navigation: false
 position: Junior front-end developer
 company: navabi GmbH
 startDate: 2017-02-01
+endDate: 2017-11-30
 dev: true
 ---
 
