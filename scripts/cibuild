@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 set -e # halt script on error
 
-webpack -p
-bundle exec jekyll build
+npm run build
 
