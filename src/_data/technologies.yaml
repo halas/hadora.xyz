@@ -1,8 +1,9 @@
 - HTML5
 - CSS3
-- Gulp
 - ES6
+- Gulp
 - Webpack
+- Jest
 - Twig
 - Pug(Jade)
 - BEM
@@ -18,3 +19,4 @@
 - MySQL
 - Vue.js
 - Nuxt.js
+- Service workers

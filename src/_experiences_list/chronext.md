@@ -7,5 +7,5 @@ startDate: 2017-12-01
 dev: true
 ---
 
-[chronext.de](https://chronext.de) is a premium watch e-commerce. My task is to move frontend code from bootstrap-based legacy 
-code into modern modular solutions, increasing site performance and speeding up the development process on the way. 
+[chronext.de](https://chronext.de) is a premium watch e-commerce. My task is to move frontend code base into
+modern tech stack. I removed bootstrap, replaced gulp with <span class="decorate-word">webpack</span>webpack, introduced autmated tests with <span class="decorate-word">Jest</span> and basic <span class="decorate-word">Progressive Web App</span> functionality. I work on internal Vue.js application. 

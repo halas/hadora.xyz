@@ -18,7 +18,7 @@ subtitle: Piotr Hałasiewicz
 email: piotr@hadora.xyz
 description: > # this means to ignore newlines until "baseurl:"
   Piotr Halasiewicz - ex PR and Project Manager turned front-end developer.
-  FOSS enthusiast. Javascript newbie on quest to become Javascript expert.
+  FOSS enthusiast.
 baseurl: "" # the subpath of your site, e.g. /blog
 
 destination: public
