@@ -4,7 +4,7 @@
   "description": "Piotr Halasiewicz's home site",
   "scripts": {
     "serve": "concurrently \"webpack -w\" \"bundle exec jekyll serve\"",
-    "build": "webpack && jekyll build"
+    "build": "webpack && bundle exec jekyll build"
   },
   "repository": {
     "type": "git",
